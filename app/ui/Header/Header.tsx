@@ -34,7 +34,7 @@ function Header(){
                         priority={true}
                         />
                         <div>         
-                            <h1 className={`${jost.className} text-3xl px-3`}>Alvaro Barba \n full-stack developer!</h1>
+                            <h1 className={`${jost.className} text-3xl px-3`}>Alvaro Barba <br/> Full-stack developer</h1>
                             <ul className="flex pt-4 px-3">
                                 <li className="pr-5">
                                     <Link href="https://www.linkedin.com/in/álvaro-bf">LinkedIn</Link>

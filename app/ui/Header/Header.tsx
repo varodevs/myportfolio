@@ -16,7 +16,7 @@ function Header(){
         { name: "csharp", icon: StackIcon },
         { name: "java", icon: StackIcon },
         { name: "php", icon: StackIcon },
-        { name: "react", icon: StackIcon },
+        { name: "reactjs", icon: StackIcon },
         { name: "js", icon: StackIcon },
         { name: "nodejs", icon: StackIcon },
         { name: "html5", icon: StackIcon },

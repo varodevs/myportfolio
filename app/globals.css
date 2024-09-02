@@ -18,10 +18,24 @@
 body {
   position: relative;
   background-color: var(--color-bg);
-  background-image: url("../public/bgimg.jpg");
   font-size: 1.2rem;
   color: hsla(180, 7%, 70%, 0.9);
   overflow-x: hidden;
+}
+
+nav {
+  background-image: url("../public/bgmountains.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+nav {
+  color: rgb(24, 23, 23);
+}
+
+.wrapper-start {
+  padding-top: 2rem;
 }
 
 input,

@@ -5,14 +5,6 @@ const config: Config = {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
-  ],
-  theme: {
-    extend: {
-      backgroundImage: {
-        'header-img' : "url('/public/bgimg.jpg')",
-      },
-    },
-  },
-  plugins: [],
+  ]
 };
 export default config;

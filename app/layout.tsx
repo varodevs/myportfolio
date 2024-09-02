@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Image from "next/image";
-import { actor, montserrat } from "./ui/fonts";
+import Link from "next/link";
+import {  montserrat } from "./ui/fonts";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -42,17 +42,17 @@ export default function RootLayout({
         {children}
         <footer className="flex justify-center pt-10 pb-5">
           <ul className="flex flex-row w-full justify-evenly">
-            <li>
-              <a>LinkedIn</a>
+            <li className="hover:text-slate-300">
+              <Link href="https://www.linkedin.com/in/álvaro-bf">LinkedIn</Link>
             </li>
-            <li>
-              <a>GitHub</a>
+            <li className="hover:text-slate-300">
+              <Link href="https://github.com/varodevs">GitHub</Link>
             </li>
-            <li>
-              <a>9485279857</a>
-            </li>
-            <li>
-              <a>email@email.com</a>
+            <li className="hover:text-slate-300">
+              <Link href="https://gitlab.com/varodevs">Gitlab</Link>
+            </li>            
+            <li className="hover:text-slate-300">
+              <a>alvaro.barba@protonmail.com</a>
             </li>
           </ul> 
         </footer>

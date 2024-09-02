@@ -6,7 +6,6 @@ import { jost } from "../fonts";
 import Terminal from "../Terminal/Terminal";
 import StackIcon from "tech-stack-icons";
 import Link from "next/link";
-import HorizontalWrapper from "../HorizontalWrapper/HorizontalWrapper";
 import HorizontalWrapperStart from "../HorizontalWrapperStart/HorizontalWrapperStart";
 import AnimatedList from "../AnimatedList/AnimatedList";
 
@@ -25,7 +24,7 @@ function Header(){
 
     return(
             <nav className="flex lg:min-h-screen flex-col items-center justify-evenly">       
-                <div className="flex w-3/4 max-w-5xl h-max items-center justify-start font-mono text-sm lg:flex gap-7 p-3">
+                <div className="wrapper-start flex w-3/4 max-w-5xl h-max items-center justify-start font-mono text-sm lg:flex gap-7 p-3">
                     <HorizontalWrapperStart heigh="20rem">   
                         <Image className="flex rounded-full border-2 border-slate-400 justify-center w-28 lg:w-48" src="/profile.jpg" 
                         alt="Alvaro Barba"
@@ -34,15 +33,17 @@ function Header(){
                         priority={true}
                         />
                         <div>         
-                            <h1 className={`${jost.className} text-3xl px-3`}>Alvaro Barba <br/> Full-stack developer</h1>
-                            <ul className="flex pt-4 px-3">
-                                <li className="pr-5">
+                            <h1 className={`${jost.className} text-6xl px-3`}>Alvaro Barba <br/> <span className="text-4xl">Full-stack developer</span></h1>
+                            <ul className="flex gap-3 pt-4 px-3 text-lg">
+                                <li className="pr-5 hover:text-cyan-900">
                                     <Link href="https://www.linkedin.com/in/álvaro-bf">LinkedIn</Link>
                                 </li>
-                                <li className="pr-5">
+                                <li className="pr-5 hover:text-cyan-900">
                                     <Link href="https://github.com/varodevs">GitHub</Link>
                                 </li>
-                                <li><Link href="https://gitlab.com/varodevs">Gitlab</Link></li>
+                                <li>
+                                    <Link className="pr-5 hover:text-cyan-900" href="https://gitlab.com/varodevs">Gitlab</Link>
+                                </li>
                             </ul>
                         </div>
                     </HorizontalWrapperStart>
@@ -50,7 +51,7 @@ function Header(){
                 </div>
                 <div className="flex justify-center flex-wrap lg:flex-nowrap font-medium font-sans w-full lg:w-2/3 py-5">
                     <Terminal />
-                    <p className="text-left w-full lg:w-1/2">Creating <span className="text-2xl text-emerald-500">Innovative</span> solutions under <span className="text-2xl text-sky-500">Clean Code</span> and <span className="text-2xl text-orange-500">Scalability</span> principles, maxing <span className="text-2xl text-lime-400">User Experience</span>.</p>
+                    <p className="text-left w-full lg:w-1/2 text-slate-300 text-2xl">Creating <span className="text-3xl text-emerald-300">Innovative</span> solutions under <span className="text-3xl text-sky-400">Clean Code</span> and <span className="text-3xl text-orange-400">Scalability</span> principles, maxing <span className="text-3xl text-lime-400">User Experience</span>.</p>
                 </div>
             </nav>
     );

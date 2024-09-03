@@ -2,6 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { projects } from "@/utils/constants";
 import StackIcon from "tech-stack-icons";
 import { jost } from "../fonts";
@@ -16,13 +17,16 @@ function Slider(){
             {projects.map((project, index) => (
                 <div key={index} className="flex flex-col p-5 bg-slate-400 bg-opacity-20 rounded-md">
                     <h2>{project.title}</h2>
-                    <Image
-                        src={project.imgsrc} 
-                        alt={project.title} 
-                        width={300} 
-                        height={300}
-                        className="flex justify-center m-2 rounded-2xl border-2 border-gray-800 hover:shadow-lg hover:shadow-slate-300 transition-shadow"
-                    />
+                    <Link href={project.link}>
+                        <Image
+                            src={project.imgsrc} 
+                            alt={project.title} 
+                            width={300} 
+                            height={300}
+                            className="flex justify-center m-2 rounded-2xl border-2 border-gray-800 hover:shadow-lg hover:shadow-slate-300 transition-shadow"
+                        />
+                    </Link>
+                    
                     <div className="flex flex-row justify-start gap-2 p-2">
                             {project.techimg.map((tech, index) => (
                                 <div key={index} className="flex justify-evenly">                                                  

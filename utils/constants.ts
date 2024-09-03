@@ -6,6 +6,7 @@ export const projects = [
         desc: "This project is an API about Dinosaurs in which you will be able to retrieve useful information about all dinosaurs know to have ever exist. I's made with Node.js, Express, and it's deployed on Vercel.",
         techimg: ["nodejs", "mongodb", "serverless"],
         github: "github",
+        link: "https://dino-api-five.vercel.app/",
     },
     {
         id: 2,
@@ -14,6 +15,7 @@ export const projects = [
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         techimg: ["laravel", "vitejs", "bootstrap5"],
         github: "github",
+        link: "#",
     },
     {
         id: 3,
@@ -22,6 +24,7 @@ export const projects = [
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         techimg: ["laravel", "js", "css3"],
         github: "github",
+        link: "#",
     },
     {
         id: 4,
@@ -30,5 +33,6 @@ export const projects = [
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         techimg: ["laravel", "js", "css3"],
         github: "github",
+        link: "#",
     },
 ]

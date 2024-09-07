@@ -48,6 +48,11 @@ a {
   outline: none;
 }
 
+.quote {
+  font-size: xx-large;
+  font-weight: 400;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

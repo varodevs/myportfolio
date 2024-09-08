@@ -28,19 +28,19 @@ export default function RootLayout({
               <a className="p-2 rounded-md hover:bg-slate-200 hover:text-gray-900 hover:opacity-70 transition-all" href="#projects">Projects</a>
             </li>
             <li>
-              <a className="p-2 rounded-md hover:bg-slate-200 hover:text-gray-900 hover:opacity-70 transition-all" href="">About me</a>
+              <a className="p-2 rounded-md hover:bg-slate-200 hover:text-gray-900 hover:opacity-70 transition-all" href="#about">About me</a>
             </li>
             <li>
-              <a className="p-2 rounded-md hover:bg-slate-200 hover:text-gray-900 hover:opacity-70 transition-all" href="">Technologies</a>
+              <a className="p-2 rounded-md hover:bg-slate-200 hover:text-gray-900 hover:opacity-70 transition-all" href="#tech">Technologies</a>
             </li>
             <li>
-              <a className="p-2 rounded-md hover:bg-slate-200 hover:text-gray-900 hover:opacity-70 transition-all" href="">Contact</a>
+              <a className="p-2 rounded-md hover:bg-slate-200 hover:text-gray-900 hover:opacity-70 transition-all" href="#contact">Contact</a>
             </li>
           </ul>
           <button>ES/ENG</button>
         </nav>
         {children}
-        <footer className="flex justify-center pt-10 pb-5">
+        <footer id="contact" className="flex justify-center pt-10 pb-5">
           <ul className="flex flex-row w-full justify-evenly">
             <li className="hover:text-slate-300">
               <Link href="https://www.linkedin.com/in/álvaro-bf">LinkedIn</Link>

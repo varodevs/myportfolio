@@ -18,8 +18,9 @@ function Aboutme(){
             <br />
             When I&#39;m not coding, you might find me exploring the latest trends in tech or just enjoying some downtime with a good book or game. Let&#39;s connect and create something amazing together!<span className="quote">&#34;</span>
             </p>
-            <Image className="rounded-sm w-80 h-96" src="/profileSmall.jpg" 
+            <Image className="rounded-sm w-72 h-80" src="/profileSmall.jpg" 
               alt="Alvaro Barba"
+              layout="resposive"
               width={829}
               height={940}
               priority={true}/>

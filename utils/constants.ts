@@ -12,7 +12,7 @@ export const projects = [
         id: 2,
         imgsrc: "/vitalcore.PNG",
         title: "Vitalcore",
-        desc: "Project created in Laravel of a physiotherapy clinic website where you can explore the different areas of treatment and make anppointments",
+        desc: "Project created in Laravel of a physiotherapy clinic website where you can explore the different areas of treatment and make appointments",
         techimg: ["laravel", "vitejs", "bootstrap5"],
         github: "github",
         link: "https://vitalcore.vercel.app/",

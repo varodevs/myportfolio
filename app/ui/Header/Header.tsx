@@ -23,8 +23,8 @@ function Header(){
       ];
 
     return(
-            <nav className="flex lg:min-h-screen flex-col items-center justify-evenly">       
-                <div className="wrapper-start flex w-3/4 max-w-5xl h-max items-center justify-start font-mono text-sm lg:flex gap-7 p-3">
+            <nav className="_header flex lg:min-h-screen sm:min-h-screen flex-col items-center justify-evenly">       
+                <div className="wrapper-start flex flex-col w-3/4 max-w-5xl h-max items-center justify-start font-mono text-sm md:flex-row lg:flex gap-7 p-3">
                     <HorizontalWrapperStart heigh="20rem">   
                         <Image className="flex rounded-full border-2 border-slate-400 justify-center w-28 lg:w-48" src="/profile.jpg" 
                         alt="Alvaro Barba"
@@ -33,8 +33,8 @@ function Header(){
                         priority={true}
                         />
                         <div>         
-                            <h1 className={`${jost.className} text-6xl px-3`}>Alvaro Barba <br/> <span className="text-4xl">Full-stack developer</span></h1>
-                            <ul className="flex gap-3 pt-4 px-3 text-lg">
+                            <h1 className={`${jost.className} lg:text-6xl text-2xl px-3`}>Alvaro Barba <br/> <span className="text-2xl">Full-stack developer</span></h1>
+                            <ul className="flex gap-3 pt-4 px-3 lg:text-lg ">
                                 <li className="pr-5 hover:text-cyan-900">
                                     <Link href="https://www.linkedin.com/in/álvaro-bf">LinkedIn</Link>
                                 </li>

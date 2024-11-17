@@ -1,10 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Link from "next/link";
 import {  montserrat } from "./ui/fonts";
 import Footer from "./ui/Footer/Footer";
-import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,6 +17,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <html lang="en">
       <body className={`${montserrat.className} antialiased bg-header-img bg-cover bg-center`}>

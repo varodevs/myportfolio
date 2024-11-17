@@ -32,9 +32,9 @@ function Header(){
                         height={1368}
                         priority={true}
                         />
-                        <div>         
+                        <div className="pt-5 lg:pt-0">         
                             <h1 className={`${jost.className}items-center text-center lg:text-5xl lg:text-left text-2xl px-3`}>Alvaro Barba <br/> <span className="text-center text-2xl">Full-stack developer</span></h1>
-                            <ul className="flex gap-3 pt-4 px-3 lg:text-lg ">
+                            <ul className="flex justify-center gap-3 pt-4 px-3 lg:text-lg ">
                                 <li className="pr-5 hover:text-cyan-900">
                                     <Link href="https://www.linkedin.com/in/álvaro-bf">LinkedIn</Link>
                                 </li>

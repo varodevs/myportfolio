@@ -4,6 +4,7 @@ import "./globals.css";
 import Link from "next/link";
 import {  montserrat } from "./ui/fonts";
 import Footer from "./ui/Footer/Footer";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,6 +20,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+        <link rel="preload" as="image" href="../public/bgmountains.jpg" />
+      </Head>
       <body className={`${montserrat.className} antialiased bg-header-img bg-cover bg-center`}>
         <nav className="flex justify-between px-10 py-2 fixed w-full opacity-0 bg-neutral-500 bg-opacity-30 text-slate-950 font-semibold transition-opacity duration-500 ease-in-out hover:opacity-90 hover:bg-opacity-90">
           <ul className="flex justify-evenly gap-3">

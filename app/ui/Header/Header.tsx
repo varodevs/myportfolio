@@ -24,7 +24,7 @@ function Header(){
 
     return(
             <nav className="_header flex lg:min-h-screen sm:min-h-screen flex-col items-center justify-evenly">       
-                <div className="wrapper-start flex flex-col w-3/4 max-w-5xl h-max items-center justify-start font-mono text-sm md:flex-row lg:flex gap-7 p-3">
+                <div className="wrapper-start flex flex-col w-3/4 h-max items-center justify-start font-mono text-sm md:flex-row lg:flex-row lg:gap-7 lg:p-3">
                     <HorizontalWrapperStart heigh="20rem">   
                         <Image className="flex rounded-full border-2 border-slate-400 justify-center w-28 lg:w-48" src="/profile.jpg" 
                         alt="Alvaro Barba"
@@ -33,7 +33,7 @@ function Header(){
                         priority={true}
                         />
                         <div>         
-                            <h1 className={`${jost.className} lg:text-6xl text-2xl px-3`}>Alvaro Barba <br/> <span className="text-2xl">Full-stack developer</span></h1>
+                            <h1 className={`${jost.className}items-center text-center lg:text-5xl lg:text-left text-2xl px-3`}>Alvaro Barba <br/> <span className="text-center text-2xl">Full-stack developer</span></h1>
                             <ul className="flex gap-3 pt-4 px-3 lg:text-lg ">
                                 <li className="pr-5 hover:text-cyan-900">
                                     <Link href="https://www.linkedin.com/in/álvaro-bf">LinkedIn</Link>
@@ -49,7 +49,7 @@ function Header(){
                     </HorizontalWrapperStart>
                     <AnimatedList items={listItems} />
                 </div>
-                <div className="flex justify-center flex-wrap lg:flex-nowrap font-medium font-sans w-full lg:w-2/3 py-5">
+                <div className="flex justify-center flex-wrap lg:flex-nowrap font-medium font-sans w-full invisible lg:w-2/3 lg:visible py-5">
                     <Terminal />
                     <p className="text-left w-full lg:w-1/2 text-slate-300 text-2xl">Creating <span className="text-3xl text-emerald-300">Innovative</span> solutions under <span className="text-3xl text-sky-400">Clean Code</span> and <span className="text-3xl text-orange-400">Scalability</span> principles, maxing <span className="text-3xl text-lime-400">User Experience</span>.</p>
                 </div>

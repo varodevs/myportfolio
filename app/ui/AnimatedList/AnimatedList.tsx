@@ -32,7 +32,7 @@ function AnimatedList({ items }: Props)  {
           animate={{ x: 0, opacity: 1 }}
           transition={{ type: 'spring', stiffness: 100, damping: 18, delay: 0.5 + index * 0.20 }}
         >
-          <item.icon name={item.name} className="bg-zinc-800 w-10" />
+          <item.icon name={item.name} className="bg-zinc-800 w-5 lg:w-10" />
         </motion.li>
       ))}
     </motion.ul>

@@ -23,7 +23,7 @@ function Header(){
       ];
 
     return(
-            <nav className="_header flex lg:min-h-screen sm:min-h-screen flex-col items-center justify-evenly">       
+            <nav className="_header flex lg:min-h-screen flex-col items-center justify-evenly">       
                 <div className="wrapper-start flex flex-col w-3/4 h-max items-center justify-start font-mono text-sm md:flex-row lg:flex-row lg:gap-7 lg:p-3">
                     <HorizontalWrapperStart heigh="20rem">   
                         <Image className="flex rounded-full border-2 border-slate-400 justify-center w-28 lg:w-48" src="/profile.jpg" 

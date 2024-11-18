@@ -2,7 +2,7 @@ export const projects = [
     {
         id: 1,
         imgsrc: "/dino-api.PNG",
-        title: "Dinosaurs API REST",
+        title: "DinoAPI",
         desc: "This project is an API about Dinosaurs in which you will be able to retrieve useful information about all dinosaurs known to have ever exist. I's made with Node.js, Express, and it's deployed on Vercel.",
         techimg: ["nodejs", "mongodb", "serverless"],
         github: "github",

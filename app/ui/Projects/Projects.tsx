@@ -24,7 +24,7 @@ function Slider(){
                             width={300} 
                             height={300}
                             priority={true}
-                            className="flex justify-center m-2 rounded-2xl border-2 border-gray-800 hover:shadow-lg hover:shadow-slate-300 transition-shadow"
+                            className="flex self-center rounded-2xl border-2 border-gray-800 hover:shadow-lg hover:shadow-slate-300 transition-shadow"
                         />
                     </Link>
                     

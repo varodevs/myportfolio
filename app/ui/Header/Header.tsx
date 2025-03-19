@@ -33,16 +33,16 @@ function Header(){
                         priority={true}
                         />
                         <div className="pt-5 lg:pt-0">         
-                            <h1 className={`${jost.className}items-center text-center lg:text-5xl lg:text-left text-2xl px-3`}>Alvaro Barba <br/> <span className="text-center text-2xl">Full-stack developer</span></h1>
-                            <ul className="flex justify-center gap-3 pt-4 px-3 lg:text-lg ">
-                                <li className="pr-5 hover:text-cyan-900">
+                            <h1 className={`${jost.className}items-center text-zinc-100 text-center lg:text-5xl lg:text-left text-2xl px-3`}>Alvaro Barba <br/> <span className="text-center text-2xl">Full-stack developer</span></h1>
+                            <ul className="flex text-zinc-400 justify-center gap-3 pt-4 px-3 lg:text-lg ">
+                                <li className="pr-5 hover:text-zinc-100">
                                     <Link href="https://www.linkedin.com/in/álvaro-bf">LinkedIn</Link>
                                 </li>
-                                <li className="pr-5 hover:text-cyan-900">
+                                <li className="pr-5 hover:text-zinc-100">
                                     <Link href="https://github.com/varodevs">GitHub</Link>
                                 </li>
                                 <li>
-                                    <Link className="pr-5 hover:text-cyan-900" href="https://gitlab.com/varodevs">Gitlab</Link>
+                                    <Link className="pr-5 hover:text-zinc-100" href="https://gitlab.com/varodevs">Gitlab</Link>
                                 </li>
                             </ul>
                         </div>
